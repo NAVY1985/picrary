@@ -51,6 +51,21 @@ Node.js
 ![alt text](assets/images/example.png)
 [Watch the Video](https://www.youtube.com/watch?v=O7473ZVrbbg "Demo")
 
+### How to Use
+```
+* The user needs to install the library with:  npm install picrary.
+
+* To add this plugin to your project you need these script tags in your html file:
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+
+<script src="src/app.js"></script>
+
+<script>$('figure').cardify();</script>
+
+* Type the text you want to appear instead in your image in the alt attribute, so when the mouse is over the image it can be replaced by the text.
+```
+
 
 ### Developed by
 
