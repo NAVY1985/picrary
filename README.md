@@ -23,7 +23,7 @@
 
 ***
 
-### OBJETIVO
+### OBJECTIVE
 To use a jQuery plugin that once given a container it needs to find all the images inside the container and replace them for a new element, in this case &lt;figure&gt; that contains the image &lt;img&gt; and also a &lt;figcaption&gt; with the alt text or attribute of the image.
 
 ***
