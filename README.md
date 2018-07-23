@@ -63,7 +63,7 @@ Node.js
 
 <script>$('figure').cardify();</script>
 
-* Type the text you want to appear instead in your image in the alt attribute, so when the mouse is over the image it can be replaced by the text.
+* Type the text you want it to appear in the alt attribute, so when the mouse is over the image it can be replaced by the text you typed.
 ```
 
 
