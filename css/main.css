@@ -1,0 +1,96 @@
+/*---------------------Fork Me Vector-------------------*/
+.fork-me {
+    max-width: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1; 
+}
+
+/*---------------------HEADINGS--------------------*/
+
+h1{
+    font-family: 'Pacifico', cursive;
+}
+
+#colors{
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+}
+
+#install{
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*---------------------TEXT----------------------*/
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*--------------------IMAGES---------------------------*/
+
+
+img{
+    max-width:100%;
+}
+
+figcaption {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-45%, -45%);
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*----------------------FOOTER----------------------------*/
+footer {
+    background: #310417;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400; 
+    height: 75px;
+}
+  
+
+
+
+ /* 
+Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap 
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) { 
+    h1{
+        font-size: 25px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    h1{
+        font-size: 40px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    h1{
+        font-size: 50px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    h1{
+        font-size: 65px;
+    }
+ }

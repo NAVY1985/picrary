@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Colors Mixed Together</title>
+</head>
+
+<body>
+    <div class="container">
+        <a href="https://github.com/adaramirez/picrary">
+            <img class="fork-me" src="assets/images/forkme.png" alt="">
+        </a>
+    </div>
+    <div class="container info mb-4">
+        <div class="row">
+            <div class="col-12 mb-5">
+                <h1 class="text-center">Picrary</h1>
+                <br>
+                <br>
+                <p class="text-center">
+                    Apply a jQuery plugin that once a container is created it searches for all the images and replace them for
+                    a new element <code>&lt;figure&gt;</code> which contains the image <code>&lt;img&gt;</code> along with a
+                    <code>&lt;figcaption&gt;</code>with the attribute alt text of the image.
+                </p>
+            </div>
+            <div class="col-12 col-md-4 line-border">
+                <h2 id="install">Install</h2>
+            </div>
+            <div class="col-12 col-md-8 line-border">
+                <h3>Download</h3>
+                <a class="btn btn-primary" href="https://github.com/adaramirez/picrary/archive/master.zip">Download
+                    <span>.zip</span>
+                </a>
+                <h3 class="mt-3">Package Manager</h3>
+                <p>Install with npm
+                    <code class=" language-markup">npm install picrary </code>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <section id="container">
+        <div class="row justify-content-sm-center">
+            <div class="col-sm-8">
+                <br>
+                <br>
+                <h2 id="colors" class="text-center">Colors Mixed Together</h2>
+                <br>
+                <br>
+            </div>
+        </div>
+        <!--Black and White Images-->
+        <div class="row justify-content-md-center">
+            <div class="col-sm-2">
+                <img id="dress" src="assets/images/lights.jpg" alt="Lights">
+            </div>
+            <div class="col-sm-2">
+                <img id="nails" src="assets/images/bridge.jpg" alt="The bridge">
+            </div>
+            <div class="col-sm-2">
+                <img id="purse" src="assets/images/paris.jpg" alt="Paris">
+            </div>
+
+        </div>
+        <div class="row justify-content-md-center">
+
+            <div class="col-sm-2">
+                <img id="perfume" src="assets/images/vinyls.jpg" alt="Old Music">
+            </div>
+            <div class="col-sm-2">
+                <img id="shoes" src="assets/images/beautiful_night.jpg" alt="Beautiful Night">
+            </div>
+            <div class="col-sm-2">
+                <img id="makeup" src="assets/images/stairs.jpg" alt="Stairs">
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <br>
+        <p class="text-center">Created by Nadya & Ada</p>
+    </footer>
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!--Boostrap JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <!--JS-->
+    <script src="app.js"></script>
+    <script>
+        $('figure').cardify();
+    </script>
+</body>
+
+</html>
