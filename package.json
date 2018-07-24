@@ -2,7 +2,7 @@
   "name": "picrary",
   "version": "1.0.0",
   "description": "jQuery plugin that once a container is created it searches for all the images and replace them for a new element <figure> which contains the image <img> along with a <figcaption>with the attribute alt text of the image. ",
-  "main": "src/app.js",
+  "main": "lib/picrary.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/babel src --out-dir lib"

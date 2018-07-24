@@ -52,19 +52,18 @@ Node.js
 [Watch the Video](https://www.youtube.com/watch?v=O7473ZVrbbg "Demo")
 
 ### How to Use
-```
-* The user needs to install the library with:  npm install picrary.
+
+* The user needs to install the library with:  `npm install picrary`.
 
 * To add this plugin to your project you need these script tags in your html file:
-
+```html
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
-
-<script src="src/app.js"></script>
-
-<script>$('figure').cardify();</script>
+<script src="node_modules/picrary/lib/picrary.js"></script>
+<script>$('.picrary').picrary();</script>
+```
 
 * Type the text you want it to appear in the alt attribute, so when the mouse is over the image it can be replaced by the text you typed.
-```
+
 
 
 ### Developed by
