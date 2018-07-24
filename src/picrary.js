@@ -1,6 +1,7 @@
 'use strict';
 
 (function($) {
+    // Pattern from: https://learn.jquery.com/plugins/basic-plugin-creation/#putting-it-together
 	$.fn.picrary = function() {
 		//Every container selected in the jQuery selector for example  $('.picrary') returns all class=".picrary"
 		$(this).each( () => {
@@ -15,6 +16,9 @@
 			});
 		
 		});
+		
+		// Returns default jQuery for chaining
+		return this;
 	}
 })(jQuery);
 	
